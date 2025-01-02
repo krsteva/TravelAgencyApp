@@ -1,0 +1,265 @@
+﻿@model IEnumerable<TravelAgency.Domain.Models.Bookings>
+@using TravelAgency.Domain.Models.Payment
+@using Microsoft.Extensions.Options
+@using TravelAgency.Domain.Enumeration
+@inject IOptions<StripeSettings> Stripe
+@{
+    ViewData["Title"] = "My Bookings";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<style>
+    .bookings-container {
+        min-height: 54vh;
+        padding: 40px 20px;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #FF7D61;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .booking-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+        height: 100%;
+        border: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .booking-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .booking-card.status-canceled {
+            background-color: #FFF9E6;
+            border-left: 5px solid #F1C40F;
+        }
+
+        .booking-card.status-confirmed {
+            background-color: #E8F8F0;
+            border-left: 5px solid #2ECC71;
+        }
+
+    .status-badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+        .status-badge.canceled {
+            background-color: #F1C40F;
+            color: #000;
+        }
+
+        .status-badge.confirmed {
+            background-color: #2ECC71;
+            color: white;
+        }
+
+        .status-badge.pending {
+            background-color: #95A5A6;
+            color: white;
+        }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        color: #333;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 1.2rem;
+        border-bottom: 2px solid #FF7D61;
+        padding-bottom: 0.5rem;
+    }
+
+    .booking-detail {
+        margin-bottom: 0.8rem;
+        color: #555;
+    }
+
+        .booking-detail strong {
+            color: #333;
+            font-weight: 600;
+        }
+
+    .button-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+    .btn-edit {
+        border-color: #4A90E2;
+        color: black;
+    }
+
+    .btn-details {
+        border-color: #2ECC71;
+        color: black;
+    }
+
+    .btn-cancel {
+        border-color: #FF7D61;
+        color: black;
+    }
+
+    .btn-invoice {
+        border-color: #F1C40F;
+        color: black;
+    }
+
+    .stripe-button-el {
+        background: #6772E5 !important;
+        margin: 0.25rem 0;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 3rem;
+        color: #666;
+        font-size: 1.2rem;
+        min-height: 31vh;
+    }
+
+    .find-destination-btn {
+        background-color: #FF7D61;
+        color: white;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        display: inline-block;
+        margin-top: 2rem;
+        border: none;
+    }
+
+        .find-destination-btn:hover {
+            background-color: #ff7963;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 125, 97, 0.2);
+            color: white;
+            text-decoration: none;
+        }
+</style>
+
+<div class="bookings-container">
+    @if (User.IsInRole("Admin"))
+    {
+        <h1 class="page-title">All Bookings</h1>
+        <form asp-controller="Bookings" asp-action="ImportBookings" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" name="file" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-success">Import Excel</button>
+        </form>
+    }
+    else
+    {
+        <h1 class="page-title">My Bookings</h1>
+    }
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="booking-card @(item.Status == Status.CANCELED ? "status-canceled" :
+                                             item.Status == Status.CONFIRMED ? "status-confirmed" : "")">
+                        <div class="card-body">
+                            <span class="status-badge @(item.Status == Status.CANCELED ? "canceled" :
+                                                      item.Status == Status.CONFIRMED ? "confirmed" : "pending")">
+                                @item.Status
+                            </span>
+                            <h5 class="card-title">Booking Details</h5>
+                            <div class="booking-detail">
+                                <strong>First Name:</strong> @Html.DisplayFor(modelItem => item.Name)
+                            </div>
+                            <div class="booking-detail">
+                                <strong>Last Name:</strong> @Html.DisplayFor(modelItem => item.LastName)
+                            </div>
+                            
+                            <div class="booking-detail">
+                                <strong>Passport:</strong> @Html.DisplayFor(modelItem => item.Passport)
+                            </div>
+                            <div class="booking-detail">
+                                <strong>Date Booked:</strong> @Html.DisplayFor(modelItem => item.DateBooked)
+                            </div>
+
+                            @if (item.Status != Status.CANCELED)
+                            {
+                                <div class="button-group">
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-edit">Edit</a>
+                                    }
+
+                                    @if (item.Status != Status.CONFIRMED)
+                                    {
+                                        <form asp-action="PayOrder" method="post" asp-route-id="@item.Id">
+                                            <article>
+                                                <script src="https://checkout.stripe.com/checkout.js"
+                                                        class="stripe-button"
+                                                        data-key="pk_test_51QVJqECELD5lZSmXWteiYxeUHcLpZdLWdchhUN8QGhYJt9jCDkc1CbNjwdqvzBM4mj7ibHMcUMYR3SK90Fah9FhZ00smXQ6C1f"
+                                                        data-locale="auto"
+                                                        data-description="Travel Packages Payment"
+                                                        data-amount="(@item.TravelPackage.Price*100)"
+                                                        data-label="Pay USD: @item.TravelPackage.Price $">
+                                                </script>
+                                            </article>
+                                        </form>
+                                    }
+
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm">Cancel Booking</a>
+                                    <a asp-action="CreateInvoice" asp-route-id="@item.Id" class="btn btn-sm">Create Invoice</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <p>Oops... No bookings found :(</p>
+        </div>
+    }
+
+    <div class="text-center">
+        <a asp-action="Index" asp-controller="TravelPackages" class="find-destination-btn">
+            Find your next Destination!
+        </a>
+    </div>
+</div>

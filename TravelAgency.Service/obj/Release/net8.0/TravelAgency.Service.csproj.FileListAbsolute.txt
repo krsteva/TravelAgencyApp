@@ -1,0 +1,17 @@
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Service.deps.json
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Service.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Service.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\TravelAgency.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.csproj.AssemblyReference.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.AssemblyInfoInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.AssemblyInfo.cs
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.csproj.CoreCompileInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAg.8873A460.Up2Date
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\refint\TravelAgency.Service.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\ref\TravelAgency.Service.dll

@@ -1,0 +1,134 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Welcome to Travel Agency";
+    var featuredPackages = Model.FeaturedPackages.ToList(); // Convert to a List
+}
+
+<header class=" text-white text-center py-5" style="background-image:url('https://4kwallpapers.com/images/wallpapers/vibrant-landscape-3840x1080-17436.jpg'); background-size: cover; background-position: center;">
+    <div class="container">
+        <h1 class="display-4" style="font-weight:300">Explore Your Next Adventure</h1>
+        <p class="lead">Discover exclusive travel packages tailored just for you!</p>
+        <form method="get" asp-page="Index" class="d-flex justify-content-center mt-4">
+            <input class="form-control w-50 me-2" type="search" name="searchTerm" placeholder="Search destinations" aria-label="Search">
+            <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+    </div>
+</header>
+
+<!-- Featured Travel Packages Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4" style="color: #FF7D61">Featured Travel Packages</h2>
+    <div class="row g-4 m-4">
+        @if (featuredPackages != null && featuredPackages.Any())
+        {
+            for (int i = 0; i < featuredPackages.Count; i += 2)
+            {
+                <div class="row mb-4">
+                    @* Card 1: Picture on the Left *@
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm d-flex flex-row">
+                            <img src="@featuredPackages[i].Image" class="card-img-left" alt="@featuredPackages[i].Name" style="width: 50%; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">@featuredPackages[i].Name</h5>
+                                <p class="card-text">
+                                    @if (featuredPackages[i].Description.Length > 100)
+                                    {
+                                        <span class="short-description">@featuredPackages[i].Description.Substring(0, 100)...</span>
+                                        <span class="full-description d-none">@featuredPackages[i].Description</span>
+                                        <a href="javascript:void(0)" class="read-more-link text-opacity-25" onclick="toggleDescription(this)" style="color:lightgrey">Read More</a>
+                                    }
+                                    else
+                                    {
+                                        @featuredPackages[i].Description
+                                    }
+                                </p>
+                                <p class="text-info fw-bold">Price: $@featuredPackages[i].Price</p>
+                                <a href="/TravelPackages/Details/@featuredPackages[i].Id" class="btn mt-auto shadow text-white" style="background-color: #FF7D61">View Details</a>
+                            </div>
+                        </div>
+                   </div>
+
+                    @* Card 2: Conditional if another package exists *@
+                    @if (i + 1 < featuredPackages.Count)
+                    {
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm d-flex flex-row-reverse">
+                                <img src="@featuredPackages[i + 1].Image" class="card-img-left" alt="@featuredPackages[i + 1].Name" style="width: 50%; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">@featuredPackages[i + 1].Name</h5>
+                                    <p class="card-text">
+                                        @if (featuredPackages[i + 1].Description.Length > 100)
+                                        {
+                                            <span class="short-description">@featuredPackages[i + 1].Description.Substring(0, 100)...</span>
+                                            <span class="full-description d-none">@featuredPackages[i + 1].Description</span>
+                                            <a href="javascript:void(0)" class="read-more-link text-opacity-25" onclick="toggleDescription(this)" style="color: lightgrey">Read More</a>
+                                        }
+                                        else
+                                        {
+                                            @featuredPackages[i + 1].Description
+                                        }
+                                    </p>
+                                    <p class="text-info fw-bold">Price: $@featuredPackages[i + 1].Price</p>
+                                    <a href="/TravelPackages/Details/@featuredPackages[i + 1].Id" class="btn mt-auto shadow text-white" style="background-color: #FF7D61">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center">
+                <p>No travel packages available right now. Please check back later!</p>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4" style="color: #FF7D61">Famous Destinations</h2>
+    <div class="row">
+        @if (Model.FeaturedPackages != null && Model.FeaturedPackages.Any())
+        {
+            foreach (var package in Model.FeaturedPackages.Take(3))
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="@package.Image" alt="@package.Name" class="img-fluid rounded" style="height: 200px; object-fit: cover; width: 100%; box-shadow:initial">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h5 class="text-white m-0">@package.Name</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center">
+                <p>No destinations available right now. Please check back later!</p>
+            </div>
+        }
+    </div>
+ </div>
+
+@section Scripts {
+    <script>
+        function toggleDescription(link) {
+            const cardText = link.closest('.card-text');
+            const shortDescription = cardText.querySelector('.short-description');
+            const fullDescription = cardText.querySelector('.full-description');
+
+            if (shortDescription.classList.contains('d-none')) {
+                shortDescription.classList.remove('d-none');
+                fullDescription.classList.add('d-none');
+                link.textContent = 'Read More';
+            } else {
+                shortDescription.classList.add('d-none');
+                fullDescription.classList.remove('d-none');
+                link.textContent = 'Read Less';
+            }
+        }
+    </script>
+}

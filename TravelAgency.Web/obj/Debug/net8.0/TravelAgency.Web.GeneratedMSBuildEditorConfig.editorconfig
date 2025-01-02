@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TravelAgency.Web
+build_property.RootNamespace = TravelAgency.Web
+build_property.ProjectDir = C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\TravelAgency\TravelAgency\TravelAgency.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\TravelAgency\TravelAgency\TravelAgency.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/NotsuccessPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcTm90c3VjY2Vzc1BheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Bookings/SuccessPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcU3VjY2Vzc1BheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Itineraries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRpbmVyYXJpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Itineraries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRpbmVyYXJpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Itineraries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRpbmVyYXJpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Itineraries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRpbmVyYXJpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Itineraries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRpbmVyYXJpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/TravelPackages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/TravelPackages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/TravelPackages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/TravelPackages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/TravelPackages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mila Krsteva/Desktop/finki/6 semestar/is/TravelAgency/TravelAgency/TravelAgency.Web/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6jaqb48vh4

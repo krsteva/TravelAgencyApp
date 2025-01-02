@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/travelapp.database.windows.net/TravelAppDatabase/travelappadmin/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/travelapp.database.windows.net/TravelAppDatabase/travelappadmin/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB91B8-680F-46D3-B5D4-1F363E6E7498}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38AB91B8-680F-46D3-B5D4-1F363E6E7498}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB91B8-680F-46D3-B5D4-1F363E6E7498}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AB91B8-680F-46D3-B5D4-1F363E6E7498}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AB91B8-680F-46D3-B5D4-1F363E6E7498}|TravelAgency.Web\\TravelAgency.Web.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.web\\travelagency.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38AB91B8-680F-46D3-B5D4-1F363E6E7498}|TravelAgency.Web\\TravelAgency.Web.csproj|solutionrelative:travelagency.web\\travelagency.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBA8378-64A7-4243-918D-0AFE1568A19E}|TravelAgency.Repository\\TravelAgency.Repository.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBA8378-64A7-4243-918D-0AFE1568A19E}|TravelAgency.Repository\\TravelAgency.Repository.csproj|solutionrelative:travelagency.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A1ED93-AF11-44FE-9128-913EDA7FEAD0}|TravelAgency.Service\\TravelAgency.Service.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.service\\implementation\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A1ED93-AF11-44FE-9128-913EDA7FEAD0}|TravelAgency.Service\\TravelAgency.Service.csproj|solutionrelative:travelagency.service\\implementation\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBA8378-64A7-4243-918D-0AFE1568A19E}|TravelAgency.Repository\\TravelAgency.Repository.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBA8378-64A7-4243-918D-0AFE1568A19E}|TravelAgency.Repository\\TravelAgency.Repository.csproj|solutionrelative:travelagency.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C7A409-3645-4818-A0EC-8565365EEF07}|TravelAgency.Domain\\TravelAgency.Domain.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.domain\\models\\travelpackages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C7A409-3645-4818-A0EC-8565365EEF07}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\models\\travelpackages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C7A409-3645-4818-A0EC-8565365EEF07}|TravelAgency.Domain\\TravelAgency.Domain.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.domain\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C7A409-3645-4818-A0EC-8565365EEF07}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TravelAgencyDb/True/SqlTable/dbo.Bookings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C7A409-3645-4818-A0EC-8565365EEF07}|TravelAgency.Domain\\TravelAgency.Domain.csproj|c:\\users\\mila krsteva\\desktop\\finki\\6 semestar\\is\\travelagency\\travelagency\\travelagency.domain\\enumeration\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C7A409-3645-4818-A0EC-8565365EEF07}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\enumeration\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TravelAgencyDb/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/travelapp.database.windows.net/TravelAppDatabase/travelappadmin/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-19T19:31:38.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/travelapp.database.windows.net/TravelAppDatabase/travelappadmin/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-19T19:31:15.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Web\\appsettings.json",
+              "RelativeToolTip": "TravelAgency.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T17:50:29.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TravelAgency.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Web\\TravelAgency.Web.csproj",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\TravelAgency.Web.csproj",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Web\\TravelAgency.Web.csproj",
+              "RelativeToolTip": "TravelAgency.Web\\TravelAgency.Web.csproj",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T17:14:29.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Web\\Program.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Web\\Program.cs",
+              "RelativeToolTip": "TravelAgency.Web\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:16:30.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TravelAgency.Repository\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:51:27.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Bookings [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TravelAgencyDb/True/SqlTable/dbo.Bookings.sql",
+              "ToolTip": "dbo.Bookings [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-18T19:09:04.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Repository\\Implementation\\Repository.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Repository\\Implementation\\Repository.cs",
+              "RelativeToolTip": "TravelAgency.Repository\\Implementation\\Repository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAtwCMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:22:31.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Service\\Implementation\\BookingService.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Service\\Implementation\\BookingService.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Service\\Implementation\\BookingService.cs",
+              "RelativeToolTip": "TravelAgency.Service\\Implementation\\BookingService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA8wDgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:26:03.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\Enumeration\\Status.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\Enumeration\\Status.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\Enumeration\\Status.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\Enumeration\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:33:26.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bookings.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\Models\\Bookings.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\Models\\Bookings.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\Models\\Bookings.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\Models\\Bookings.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:30:24.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TravelPackages.cs",
+              "DocumentMoniker": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\Models\\TravelPackages.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\Models\\TravelPackages.cs",
+              "ToolTip": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\Models\\TravelPackages.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\Models\\TravelPackages.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:28:48.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TravelAgencyDb/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-17T19:13:20.736Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\bin\Release\net8.0\TravelAgency.Domain.deps.json
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\bin\Release\net8.0\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\bin\Release\net8.0\TravelAgency.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.csproj.AssemblyReference.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.AssemblyInfoInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.AssemblyInfo.cs
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\refint\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\TravelAgency.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Release\net8.0\ref\TravelAgency.Domain.dll

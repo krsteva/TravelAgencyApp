@@ -1,0 +1,15 @@
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\bin\Release\net8.0\TravelAgency.Repository.deps.json
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\bin\Release\net8.0\TravelAgency.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\bin\Release\net8.0\TravelAgency.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\bin\Release\net8.0\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\bin\Release\net8.0\TravelAgency.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.csproj.AssemblyReference.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.AssemblyInfoInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.AssemblyInfo.cs
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAg.13BC5B12.Up2Date
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\refint\TravelAgency.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\ref\TravelAgency.Repository.dll

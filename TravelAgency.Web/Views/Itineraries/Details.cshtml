@@ -1,0 +1,120 @@
+﻿@model TravelAgency.Domain.Models.Itineraries
+@{
+    ViewData["Title"] = "Itineraries Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!-- Header Section -->
+<section class="position-relative">
+    <!-- Main Image -->
+    <div class="position-relative" style="height: 400px;">
+        <div class="position-absolute w-100 h-100"
+             style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('@Model.Image');
+                    background-size: cover;
+                    background-position: center;">
+        </div>
+    </div>
+
+    <!-- Info Bar -->
+    <div class="position-absolute w-100 bottom-0 py-4" style="background: rgba(0,0,0,0.7);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-white text-center">
+                    <h5 class="text-uppercase mb-2" style="color: #FF7D61;">Destination</h5>
+                    <h1 class="display-5 fw-bold mb-3">@Model.Name</h1>
+                    <div class="d-flex justify-content-center gap-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-calendar-day me-2"></i>
+                            <span>Day @Model.DayNumber</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clock me-2"></i>
+                            <span>@Model.ArivalTime - @Model.DepartutreTime</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="row g-4">
+            <!-- About This Stop -->
+            <div class="col-lg-6">
+                <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fas fa-info-circle me-2" style="color: #FF7D61"></i>
+                        <h2 class="mb-0" style="color: #FF7D61">About This Stop</h2>
+                    </div>
+                    <p class="mb-0">@Model.Description</p>
+                </div>
+            </div>
+
+            <!-- Schedule Details -->
+            <div class="col-lg-6">
+                <div class="bg-white p-4 rounded-3 shadow-sm h-100">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fas fa-calendar-alt me-2" style="color: #FF7D61"></i>
+                        <h2 class="mb-0" style="color: #FF7D61">Schedule Details</h2>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt me-3" style="color: #FF7D61; width: 20px;"></i>
+                                <div>
+                                    <small class="text-muted d-block">Location</small>
+                                    <strong>@Model.Place</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-calendar-day me-3" style="color: #FF7D61; width: 20px;"></i>
+                                <div>
+                                    <small class="text-muted d-block">Day</small>
+                                    <strong>Day @Model.DayNumber</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-clock me-3" style="color: #FF7D61; width: 20px;"></i>
+                                <div>
+                                    <small class="text-muted d-block">Arrival Time</small>
+                                    <strong>@Model.ArivalTime</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-clock me-3" style="color: #FF7D61; width: 20px;"></i>
+                                <div>
+                                    <small class="text-muted d-block">Departure Time</small>
+                                    <strong>@Model.DepartutreTime</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Admin Actions -->
+@if (User.IsInRole("Admin"))
+{
+    <div class="container mb-5">
+        <div class="d-flex justify-content-center gap-3">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning px-4">
+                <i class="fas fa-edit me-2"></i>Edit Itinerary
+            </a>
+            <a asp-action="Index" class="btn btn-secondary px-4">
+                <i class="fas fa-arrow-left me-2"></i>Back to List
+            </a>
+        </div>
+    </div>
+}
