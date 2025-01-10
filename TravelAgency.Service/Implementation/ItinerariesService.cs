@@ -17,10 +17,12 @@ namespace TravelAgency.Service.Implementation
    
     {
         private readonly IRepository<Itineraries> repository;
+        private readonly IItineraryInPackageService itineraryInPackageService;
 
-        public ItinerariesService(IRepository<Itineraries> repository)
+        public ItinerariesService(IRepository<Itineraries> repository, IItineraryInPackageService itineraryInPackageService)
         {
             this.repository = repository;
+            this.itineraryInPackageService = itineraryInPackageService;
         }
 
         public Itineraries CreateItinerary(Itineraries itineraries)
@@ -31,6 +33,7 @@ namespace TravelAgency.Service.Implementation
         public Itineraries DeleteItinerary(Guid Id)
         {
             Itineraries itinerary = repository.Get(Id);
+            itineraryInPackageService.DeleteItinerary(Id);
             return repository.Delete(itinerary);
         }
 

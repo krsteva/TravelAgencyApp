@@ -2940,23 +2940,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mila Krsteva\\.nuget\\packages\\": {},
+    "C:\\Users\\Igor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Service\\TravelAgency.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Service\\TravelAgency.Service.csproj",
       "projectName": "TravelAgency.Service",
-      "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Service\\TravelAgency.Service.csproj",
-      "packagesPath": "C:\\Users\\Mila Krsteva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Service\\obj\\",
+      "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Service\\TravelAgency.Service.csproj",
+      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mila Krsteva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2971,11 +2971,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
             },
-            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Repository\\TravelAgency.Repository.csproj": {
-              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Repository\\TravelAgency.Repository.csproj"
+            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Repository\\TravelAgency.Repository.csproj": {
+              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Repository\\TravelAgency.Repository.csproj"
             }
           }
         }
@@ -2988,8 +2988,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -3010,8 +3011,90 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Formats.Asn1' 5.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
+      "libraryId": "System.Formats.Asn1",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

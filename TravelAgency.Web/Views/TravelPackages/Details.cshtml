@@ -45,7 +45,7 @@
                         <h2 class="display-5 fw-bold mb-0">$@Model.Price</h2>
                         <span class="fs-6">per person</span>
                     </div>
-                    <a href="@Url.Action("Create", "Bookings", new { travelPackageId = Model.Id })"
+                    <a asp-action="Create" asp-controller="Bookings" asp-route-id="@Model.Id"
                        class="btn btn-lg w-100 text-white"
                        style="background-color: #FF7D61">
                         <i class="fas fa-ticket-alt me-2"></i>Make Booking

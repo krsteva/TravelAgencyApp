@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+    "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
         "projectName": "TravelAgency.Domain",
-        "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\TravelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mila Krsteva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mila Krsteva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -70,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

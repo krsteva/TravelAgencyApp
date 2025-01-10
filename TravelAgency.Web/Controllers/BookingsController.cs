@@ -144,11 +144,11 @@ namespace TravelAgency.Web.Controllers
         }
 
         // GET: Bookings/Create
-        public IActionResult Create(Guid travelPackageId)
+        public IActionResult Create(Guid id)
         {
 
             ViewData["status"] = GetStatusSelectList();
-            ViewData["travelPackageId"] = travelPackageId;
+            ViewData["travelPackageId"] = id;
 
 
 
@@ -163,6 +163,7 @@ namespace TravelAgency.Web.Controllers
         public IActionResult Create([Bind("Id,Name,LastName,Passport,TravelPackageId")] Bookings bookings)
         {
             var loggedInUser = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "";
+            bookings.Id = Guid.NewGuid();
             bookings.DateBooked = DateOnly.FromDateTime(DateTime.Now);
             bookings.Status = Status.PENDING;
             bookingService.Create(loggedInUser, bookings);
@@ -221,7 +222,7 @@ namespace TravelAgency.Web.Controllers
                 return NotFound();
             }
 
-            return View(bookings);
+            return RedirectToAction("Index");
         }
 
         // POST: Bookings/Delete/5

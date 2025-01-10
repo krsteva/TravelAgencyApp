@@ -172,7 +172,7 @@ namespace TravelAgency.Web.Controllers
                 return NotFound();
             }
 
-            var itineraries = itinerariesSevice.DeleteItinerary(id);
+            var itineraries = itinerariesSevice.GetItinerariesById(id);
             if (itineraries == null)
             {
                 return NotFound();
