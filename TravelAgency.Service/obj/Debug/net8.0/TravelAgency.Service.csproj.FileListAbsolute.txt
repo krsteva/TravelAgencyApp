@@ -33,3 +33,7 @@ C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Servic
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\obj\Debug\net8.0\refint\TravelAgency.Service.dll
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.pdb
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\obj\Debug\net8.0\ref\TravelAgency.Service.dll
+C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Domain.dll
+C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Repository.dll
+C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Domain.pdb
+C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Repository.pdb

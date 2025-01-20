@@ -1,3 +1,6 @@
+using Library.Repository;
+using Library.Repository.Implementation;
+using Library.Repository.Interface;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TravelAgency.Domain.Identity;
@@ -17,6 +20,9 @@ builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Str
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+var libraryConnectionString = builder.Configuration.GetConnectionString("LibraryConnection") ?? throw new InvalidOperationException("Connection string 'LibraryConnection' not found.");
+builder.Services.AddDbContext<LibraryDbContext>(options =>
+    options.UseSqlServer(libraryConnectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<Customer>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -26,6 +32,7 @@ builder.Services.AddRazorPages();
 
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(IBooksRepository), typeof(BookRepository));
 builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
 builder.Services.AddScoped(typeof(IItineraryInPackageRepository), typeof(ItineraryInPackageRepository));
 
@@ -33,6 +40,7 @@ builder.Services.AddTransient<ITravelPackagesService, TravelPackageService>();
 builder.Services.AddTransient<IItinerariesSevice, ItinerariesService>();
 builder.Services.AddTransient<IItineraryInPackageService, ItineraryInPackageService>();
 builder.Services.AddTransient<IBookingService, BookingService>();
+builder.Services.AddTransient<IBookService, BookService>();
 
 
 

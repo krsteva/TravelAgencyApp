@@ -26,6 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Library.Domain\Library.Domain.csproj" />
+    <ProjectReference Include="..\Library.Repository\Library.Repository.csproj" />
     <ProjectReference Include="..\TravelAgency.Domain\TravelAgency.Domain.csproj" />
     <ProjectReference Include="..\TravelAgency.Repository\TravelAgency.Repository.csproj" />
     <ProjectReference Include="..\TravelAgency.Service\TravelAgency.Service.csproj" />
