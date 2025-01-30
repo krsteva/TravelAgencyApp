@@ -648,3 +648,8 @@ C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Web\bi
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Web\bin\Debug\net8.0\Library.Repository.dll
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Web\bin\Debug\net8.0\Library.Domain.pdb
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Web\bin\Debug\net8.0\Library.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\bin\Debug\net8.0\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\bin\Debug\net8.0\Library.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\bin\Debug\net8.0\Library.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\bin\Debug\net8.0\Library.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Debug\net8.0\TravelAgency.Web.sourcelink.json

@@ -11,6 +11,8 @@
           "Aspose.PDF": "24.12.0",
           "ExcelDataReader": "3.7.0",
           "GemBox.Document": "35.0.1946",
+          "Library.Domain": "1.0.0",
+          "Library.Repository": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
           "Microsoft.AspNetCore.Identity.UI": "8.0.11",
@@ -3242,6 +3244,24 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Library.Domain/1.0.0": {
+        "dependencies": {
+          "TravelAgency.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Library.Domain.dll": {}
+        }
+      },
+      "Library.Repository/1.0.0": {
+        "dependencies": {
+          "Library.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
+        },
+        "runtime": {
+          "Library.Repository.dll": {}
+        }
+      },
       "TravelAgency.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Identity.Stores": "8.0.11"
@@ -3262,6 +3282,8 @@
       },
       "TravelAgency.Service/1.0.0": {
         "dependencies": {
+          "Library.Domain": "1.0.0",
+          "Library.Repository": "1.0.0",
           "TravelAgency.Domain": "1.0.0",
           "TravelAgency.Repository": "1.0.0"
         },
@@ -5362,6 +5384,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Library.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "TravelAgency.Domain/1.0.0": {
       "type": "project",

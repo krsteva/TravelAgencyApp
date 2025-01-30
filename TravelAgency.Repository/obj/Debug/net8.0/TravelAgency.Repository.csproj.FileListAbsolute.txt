@@ -29,3 +29,4 @@ C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Reposi
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Repository\obj\Debug\net8.0\refint\TravelAgency.Repository.dll
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.pdb
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Repository\obj\Debug\net8.0\ref\TravelAgency.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Debug\net8.0\TravelAgency.Repository.sourcelink.json

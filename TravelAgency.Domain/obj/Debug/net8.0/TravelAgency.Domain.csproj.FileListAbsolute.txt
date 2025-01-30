@@ -23,3 +23,4 @@ C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Domain
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Domain\obj\Debug\net8.0\refint\TravelAgency.Domain.dll
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.pdb
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Domain\obj\Debug\net8.0\ref\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Domain\obj\Debug\net8.0\TravelAgency.Domain.sourcelink.json

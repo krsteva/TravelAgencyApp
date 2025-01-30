@@ -285,9 +285,13 @@ C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Trav
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\Library.Repository.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\TravelAgency.Domain.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\TravelAgency.Repository.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\TravelAgency.Service.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\Library.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\Library.Repository.pdb
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\TravelAgency.Domain.pdb
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\TravelAgency.Repository.pdb
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Web\obj\Release\net8.0\PubTmp\Out\TravelAgency.Service.pdb

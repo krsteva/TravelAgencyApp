@@ -37,3 +37,8 @@ C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Servic
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Repository.dll
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Domain.pdb
 C:\Users\Igor\Desktop\Git Projects\TravelApp\TravelAgencyApp\TravelAgency.Service\bin\Debug\net8.0\Library.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Debug\net8.0\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Debug\net8.0\Library.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Debug\net8.0\Library.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Debug\net8.0\Library.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Debug\net8.0\TravelAgency.Service.sourcelink.json

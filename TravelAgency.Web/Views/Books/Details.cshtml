@@ -1,61 +1,75 @@
 ﻿@model Domain.Models.Book
-
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Book Details";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<!-- Refined Header Section -->
+<section class="position-relative">
+    <!-- Main Image -->
+    <div class="position-relative" style="height: 500px;">
+        <div class="position-absolute w-100 h-100"
+             style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('@Model.CoverImage');
+                    background-size: cover;
+                    background-position: center;">
+        </div>
+    </div>
 
-<div>
-    <h4>Book</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CoverImage)
-        </dt>
-        <dd class = "col-sm-10">
-            <img src="@Html.DisplayFor(model => model.CoverImage)"
-            
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Rating)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Rating)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Author)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Author.FullName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Publisher)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Publisher.Name)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <!-- Book Info Bar -->
+    <div class="position-absolute w-100 bottom-0 py-4" style="background: rgba(0,0,0,0.7);">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left side: Book info -->
+                <div class="col-md-8 text-white">
+                    <h5 class="text-uppercase mb-2" style="color: #FF7D61;">By @Model.Author.FullName</h5>
+                    <h1 class="display-5 fw-bold mb-3">@Model.Title</h1>
+                    <div class="d-flex flex-wrap gap-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-building me-2"></i>
+                            <span>@Model.Publisher.Name</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-star me-2"></i>
+                            <span>Rating: @Model.Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right side: Price and action -->
+                <div class="col-md-4 text-white text-md-end mt-4 mt-md-0">
+                    <div class="mb-3">
+                        <span class="fs-5">Price</span>
+                        <h2 class="display-5 fw-bold mb-0">$@Model.Price</h2>
+                    </div>
+                    <button class="btn btn-lg w-100 text-white" style="background-color: #FF7D61">
+                        <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Book Description -->
+<section class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="bg-white p-5 rounded-3 shadow-sm h-100">
+                    <h2 class="mb-4" style="color: #FF7D61">About This Book</h2>
+                    <p class="lead mb-0">@Model.Description</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bg-white p-5 rounded-3 shadow-sm h-100">
+                    <h2 class="mb-4" style="color: #FF7D61">Book Details</h2>
+                    <p><strong>Author:</strong> @Model.Author.FullName</p>
+                    <p><strong>Publisher:</strong> @Model.Publisher.Name</p>
+                    <p><strong>Price:</strong> $@Model.Price</p>
+                    <p><strong>Rating:</strong> @Model.Rating</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

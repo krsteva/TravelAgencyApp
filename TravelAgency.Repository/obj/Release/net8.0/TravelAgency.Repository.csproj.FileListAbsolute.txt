@@ -13,3 +13,4 @@ C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Trav
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\refint\TravelAgency.Repository.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.pdb
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\ref\TravelAgency.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Repository\obj\Release\net8.0\TravelAgency.Repository.sourcelink.json

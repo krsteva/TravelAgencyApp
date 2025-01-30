@@ -15,3 +15,8 @@ C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Trav
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\refint\TravelAgency.Service.dll
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.pdb
 C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\ref\TravelAgency.Service.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\Library.Repository.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\Library.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\bin\Release\net8.0\Library.Repository.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\TravelAgency.Service\obj\Release\net8.0\TravelAgency.Service.sourcelink.json

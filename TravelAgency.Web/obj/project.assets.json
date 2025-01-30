@@ -14887,23 +14887,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Igor\\.nuget\\packages\\": {},
+    "C:\\Users\\Mila Krsteva\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Web\\TravelAgency.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Web\\TravelAgency.Web.csproj",
       "projectName": "TravelAgency.Web",
-      "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Web\\TravelAgency.Web.csproj",
-      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Web\\obj\\",
+      "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Web\\TravelAgency.Web.csproj",
+      "packagesPath": "C:\\Users\\Mila Krsteva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mila Krsteva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -14918,20 +14918,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\Library.Domain\\Library.Domain.csproj": {
-              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\Library.Domain\\Library.Domain.csproj"
+            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\Library.Domain\\Library.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\Library.Domain\\Library.Domain.csproj"
             },
-            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\Library.Repository\\Library.Repository.csproj": {
-              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\Library.Repository\\Library.Repository.csproj"
+            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\Library.Repository\\Library.Repository.csproj": {
+              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\Library.Repository\\Library.Repository.csproj"
             },
-            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
-              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
             },
-            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Repository\\TravelAgency.Repository.csproj": {
-              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Repository\\TravelAgency.Repository.csproj"
+            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Repository\\TravelAgency.Repository.csproj": {
+              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Repository\\TravelAgency.Repository.csproj"
             },
-            "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Service\\TravelAgency.Service.csproj": {
-              "projectPath": "C:\\Users\\Igor\\Desktop\\Git Projects\\TravelApp\\TravelAgencyApp\\TravelAgency.Service\\TravelAgency.Service.csproj"
+            "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Service\\TravelAgency.Service.csproj": {
+              "projectPath": "C:\\Users\\Mila Krsteva\\Desktop\\finki\\6 semestar\\is\\travelAgency\\TravelAgency\\TravelAgency.Service\\TravelAgency.Service.csproj"
             }
           }
         }
@@ -14944,9 +14944,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -15022,50 +15021,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Net.Http' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7jgj-8wvc-jh57",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Xml' 4.5.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh55-786g-wjwj",
-      "libraryId": "System.Security.Cryptography.Xml",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

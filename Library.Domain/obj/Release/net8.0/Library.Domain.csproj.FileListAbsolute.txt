@@ -1,0 +1,16 @@
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\bin\Release\net8.0\Library.Domain.deps.json
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\bin\Release\net8.0\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\bin\Release\net8.0\Library.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\bin\Release\net8.0\TravelAgency.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\bin\Release\net8.0\TravelAgency.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.csproj.AssemblyReference.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.AssemblyInfoInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.AssemblyInfo.cs
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.sourcelink.json
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library..F93CCB0A.Up2Date
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\refint\Library.Domain.dll
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\Library.Domain.pdb
+C:\Users\Mila Krsteva\Desktop\finki\6 semestar\is\travelAgency\TravelAgency\Library.Domain\obj\Release\net8.0\ref\Library.Domain.dll
